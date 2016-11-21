@@ -88,9 +88,9 @@
 
 
 1.市面一些下拉刷新控件普遍缺陷演示以直播吧APP为例：
-第1种情况：列表在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时列表不能滑动。
+第1种情况：滑动控件在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时滑动控件不能滑动。
 
-原因:下拉刷新控件响应了触摸事件，后续的一系列">
+原因:下拉刷新控件响应了触摸事件，后续">
 <meta property="og:type" content="article">
 <meta property="og:title" content="一种无痕过渡下拉刷新控件的实现思路">
 <meta property="og:url" content="http://yoursite.com/2016/11/22/一种无痕过渡下拉刷新控件的实现思路/index.html">
@@ -99,24 +99,24 @@
 
 
 1.市面一些下拉刷新控件普遍缺陷演示以直播吧APP为例：
-第1种情况：列表在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时列表不能滑动。
+第1种情况：滑动控件在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时滑动控件不能滑动。
 
-原因:下拉刷新控件响应了触摸事件，后续的一系列">
+原因:下拉刷新控件响应了触摸事件，后续">
 <meta property="og:image" content="http://ww4.sinaimg.cn/large/904ec4b1jw1fa076tlsg8g20d80n47wh.gif">
 <meta property="og:image" content="http://ww3.sinaimg.cn/large/904ec4b1jw1fa076gnmg8g20di0n0tga.gif">
 <meta property="og:image" content="http://ww4.sinaimg.cn/large/904ec4b1jw1fa0bhc0co2g20di0n3npf.gif">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/904ec4b1jw1fa0bczoaoxg20di0n3wqt.gif">
 <meta property="og:image" content="http://ww4.sinaimg.cn/large/904ec4b1jw1fa0bfdx829g20di0n34qs.gif">
-<meta property="og:updated_time" content="2016-11-21T20:06:46.966Z">
+<meta property="og:updated_time" content="2016-11-21T20:14:47.553Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="一种无痕过渡下拉刷新控件的实现思路">
 <meta name="twitter:description" content="相信大家已经对下拉刷新熟悉得不能再熟悉了，市面上的下拉刷新琳琅满目，然而有很多在我看来略有缺陷，接下来我将说明一下存在的缺陷问题，然后提供一种思路来解决这一缺陷，废话不多说！往下看嘞！
 
 
 1.市面一些下拉刷新控件普遍缺陷演示以直播吧APP为例：
-第1种情况：列表在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时列表不能滑动。
+第1种情况：滑动控件在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时滑动控件不能滑动。
 
-原因:下拉刷新控件响应了触摸事件，后续的一系列">
+原因:下拉刷新控件响应了触摸事件，后续">
 <meta name="twitter:image" content="http://ww4.sinaimg.cn/large/904ec4b1jw1fa076tlsg8g20d80n47wh.gif">
 
 
@@ -340,18 +340,18 @@
 </blockquote>
 <hr>
 <h2 id="1-市面一些下拉刷新控件普遍缺陷演示"><a href="#1-市面一些下拉刷新控件普遍缺陷演示" class="headerlink" title="1.市面一些下拉刷新控件普遍缺陷演示"></a>1.市面一些下拉刷新控件普遍缺陷演示</h2><p>以直播吧APP为例：</p>
-<p>第1种情况：<br>列表在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时列表不能滑动。</p>
+<p>第1种情况：<br>滑动控件在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时滑动控件不能滑动。</p>
 <blockquote>
-<p>原因:<br>下拉刷新控件响应了触摸事件，后续的一系列事件(ACTION_DOWN~ACTION_UP)都由它来处理，当列表到顶端的时候，滑动事件都被下拉刷新控件消费掉了，传递不到它的子控件即列表控件，因此列表不能滑动。</p>
+<p>原因:<br>下拉刷新控件响应了触摸事件，后续的一系列事件都由它来处理，当滑动控件到顶端的时候，滑动事件都被下拉刷新控件消费掉了，传递不到它的子控件即滑动控件，因此滑动控件不能滑动。</p>
 </blockquote>
 <p><img src="http://ww4.sinaimg.cn/large/904ec4b1jw1fa076tlsg8g20d80n47wh.gif" alt="这里写图片描述"></p>
-<p>第2种情况：<br>列表滑动到某个非0位置时，这时下拉回0位置时，可以看到下拉刷新头部没有被拉出来。</p>
+<p>第2种情况：<br>滑动控件滑动到某个非0位置时，这时下拉回0位置时，可以看到下拉刷新头部没有被拉出来。</p>
 <blockquote>
-<p>原因:<br>列表控件响应了触摸事件，后续的一系列事件(ACTION_DOWN~ACTION_UP)都由它来处理，当列表到顶端的时候，滑动事件都被列表控件消费掉了，父控件即下拉刷新控件消费不了滑动时间，因此下拉刷新头部没有被拉出来。</p>
+<p>原因:<br>滑动控件响应了触摸事件，后续的一系列事件都由它来处理，当滑动控件到顶端的时候，滑动事件都被滑动控件消费掉了，父控件即下拉刷新控件消费不了滑动时间，因此下拉刷新头部没有被拉出来。</p>
 </blockquote>
 <p><img src="http://ww3.sinaimg.cn/large/904ec4b1jw1fa076gnmg8g20di0n0tga.gif" alt="这里写图片描述"></p>
 <blockquote>
-<p>可能大部分人觉得无关痛痒，把手指抬起再下下拉就可以了，but对于强迫症的我而言，能提供一个无痕过渡才是最符合操作逻辑的，因此接下来我来讲解下实现的思路。</p>
+<p>可能大部分人觉得无关痛痒，把手指抬起再下拉就可以了，but对于强迫症的我而言，能提供一个无痕过渡才是最符合操作逻辑的，因此接下来我来讲解下实现的思路。</p>
 </blockquote>
 <hr>
 <h2 id="2-实现的思路讲解"><a href="#2-实现的思路讲解" class="headerlink" title="2.实现的思路讲解"></a>2.实现的思路讲解</h2><p> 2.1.事件分发机制简介(来源于Android开发艺术探索)</p>
