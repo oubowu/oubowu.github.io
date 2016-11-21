@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="自定义控件," />
 
 
 
@@ -84,12 +84,40 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="欧同学">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="相信大家已经对下拉刷新熟悉得不能再熟悉了，市面上的下拉刷新琳琅满目，然而有很多在我看来略有缺陷，接下来我将说明一下存在的缺陷问题，然后提供一种思路来解决这一缺陷，废话不多说！往下看嘞！
+
+
+1.市面一些下拉刷新控件普遍缺陷演示以直播吧APP为例：
+第1种情况：列表在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时列表不能滑动。
+
+原因:下拉刷新控件响应了触摸事件，后续的一系列">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一种无痕过渡下拉刷新控件的实现思路">
+<meta property="og:url" content="http://yoursite.com/2016/11/22/一种无痕过渡下拉刷新控件的实现思路/index.html">
 <meta property="og:site_name" content="欧同学">
+<meta property="og:description" content="相信大家已经对下拉刷新熟悉得不能再熟悉了，市面上的下拉刷新琳琅满目，然而有很多在我看来略有缺陷，接下来我将说明一下存在的缺陷问题，然后提供一种思路来解决这一缺陷，废话不多说！往下看嘞！
+
+
+1.市面一些下拉刷新控件普遍缺陷演示以直播吧APP为例：
+第1种情况：列表在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时列表不能滑动。
+
+原因:下拉刷新控件响应了触摸事件，后续的一系列">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/904ec4b1jw1fa076tlsg8g20d80n47wh.gif">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/904ec4b1jw1fa076gnmg8g20di0n0tga.gif">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/904ec4b1jw1fa0bhc0co2g20di0n3npf.gif">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/904ec4b1jw1fa0bczoaoxg20di0n3wqt.gif">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/904ec4b1jw1fa0bfdx829g20di0n34qs.gif">
+<meta property="og:updated_time" content="2016-11-21T20:06:46.966Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="欧同学">
+<meta name="twitter:title" content="一种无痕过渡下拉刷新控件的实现思路">
+<meta name="twitter:description" content="相信大家已经对下拉刷新熟悉得不能再熟悉了，市面上的下拉刷新琳琅满目，然而有很多在我看来略有缺陷，接下来我将说明一下存在的缺陷问题，然后提供一种思路来解决这一缺陷，废话不多说！往下看嘞！
+
+
+1.市面一些下拉刷新控件普遍缺陷演示以直播吧APP为例：
+第1种情况：列表在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时列表不能滑动。
+
+原因:下拉刷新控件响应了触摸事件，后续的一系列">
+<meta name="twitter:image" content="http://ww4.sinaimg.cn/large/904ec4b1jw1fa076tlsg8g20d80n47wh.gif">
 
 
 
@@ -117,13 +145,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/11/22/一种无痕过渡下拉刷新控件的实现思路/"/>
 
 
 
 
 
-  <title> 欧同学 </title>
+  <title> 一种无痕过渡下拉刷新控件的实现思路 | 欧同学 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="">
@@ -144,9 +172,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -225,9 +251,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -260,10 +286,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/11/22/一种无痕过渡下拉刷新控件的实现思路/" itemprop="url">
-                  一种无痕过渡下拉刷新控件的实现思路
-                </a>
+                一种无痕过渡下拉刷新控件的实现思路
               
             
           </h1>
@@ -312,9 +335,7 @@
       
 
       
-        
-          
-            <blockquote>
+        <blockquote>
 <p>相信大家已经对下拉刷新熟悉得不能再熟悉了，市面上的下拉刷新琳琅满目，然而有很多在我看来略有缺陷，接下来我将说明一下存在的缺陷问题，然后提供一种思路来解决这一缺陷，废话不多说！往下看嘞！</p>
 </blockquote>
 <hr>
@@ -386,156 +407,62 @@
 </blockquote>
 <p>Demo地址：<a href="https://github.com/oubowu/RefreshLayoutDemo" target="_blank" rel="external">Github:RefreshLayoutDemo</a>，觉得还不错的话给个Star哦。</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/11/08/hello-world/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Bowu Ou">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="欧同学">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="欧同学" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/11/08/hello-world/" itemprop="url">
-                  Untitled
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-08T21:27:01+08:00">
-                2016-11-08
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/自定义控件/" rel="tag"># 自定义控件</a>
           
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <hr>
-<h2 id="个人博客搭成"><a href="#个人博客搭成" class="headerlink" title="个人博客搭成"></a>个人博客搭成</h2><p>使用Hexo搭建而成了，有点意思啊！以后在这写点啥分享啦！</p>
-<p><img src="http://ww4.sinaimg.cn/mw690/b2b1bff9jw1f9jdcstlw3j21hc0u043f.jpg" alt="图片"></p>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/11/08/hello-world/" rel="next" title="">
+                <i class="fa fa-chevron-left"></i> 
+              </a>
+            
+          </div>
 
-          
-        
-      
-    </div>
+          <span class="post-nav-divider"></span>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -543,6 +470,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -562,8 +493,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -609,6 +549,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-市面一些下拉刷新控件普遍缺陷演示"><span class="nav-number">1.</span> <span class="nav-text">1.市面一些下拉刷新控件普遍缺陷演示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-实现的思路讲解"><span class="nav-number">2.</span> <span class="nav-text">2.实现的思路讲解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-代码实现"><span class="nav-number">3.</span> <span class="nav-text">3.代码实现</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
     </div>
@@ -707,6 +663,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
