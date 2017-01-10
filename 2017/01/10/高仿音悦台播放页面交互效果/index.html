@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="自定义控件," />
 
 
 
@@ -84,12 +84,29 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="欧同学">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="新版的音悦台 APP 播放页面交互非常有意思，可以把播放器往下拖动，这个页面透明渐变，然后到底部可以左右拖动关闭播放器，然后点击视频列表有个页面弹出来的效果，十分炫酷，于是我自己动手实现了这个交互炫酷的播放器页面。
+
+1.废话不多说，直接演示实现效果1.1.点击某个视频，然后手指上下拖动，播放器做尺寸比例的渐变，视频相关信息做透明度渐变
+1.2.播放器只有在底部的时候，才能左右拖动，此时播放器做">
+<meta property="og:type" content="article">
+<meta property="og:title" content="高仿音悦台播放页面交互效果">
+<meta property="og:url" content="http://yoursite.com/2017/01/10/高仿音悦台播放页面交互效果/index.html">
 <meta property="og:site_name" content="欧同学">
+<meta property="og:description" content="新版的音悦台 APP 播放页面交互非常有意思，可以把播放器往下拖动，这个页面透明渐变，然后到底部可以左右拖动关闭播放器，然后点击视频列表有个页面弹出来的效果，十分炫酷，于是我自己动手实现了这个交互炫酷的播放器页面。
+
+1.废话不多说，直接演示实现效果1.1.点击某个视频，然后手指上下拖动，播放器做尺寸比例的渐变，视频相关信息做透明度渐变
+1.2.播放器只有在底部的时候，才能左右拖动，此时播放器做">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1982467-efa6dcde5a37300b.gif?imageMogr2/auto-orient/strip">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1982467-ebe0394ccfa6e2e8.gif?imageMogr2/auto-orient/strip">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1982467-b1672383d0f7fa8a.gif?imageMogr2/auto-orient/strip">
+<meta property="og:updated_time" content="2017-01-10T14:08:54.378Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="欧同学">
+<meta name="twitter:title" content="高仿音悦台播放页面交互效果">
+<meta name="twitter:description" content="新版的音悦台 APP 播放页面交互非常有意思，可以把播放器往下拖动，这个页面透明渐变，然后到底部可以左右拖动关闭播放器，然后点击视频列表有个页面弹出来的效果，十分炫酷，于是我自己动手实现了这个交互炫酷的播放器页面。
+
+1.废话不多说，直接演示实现效果1.1.点击某个视频，然后手指上下拖动，播放器做尺寸比例的渐变，视频相关信息做透明度渐变
+1.2.播放器只有在底部的时候，才能左右拖动，此时播放器做">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/1982467-efa6dcde5a37300b.gif?imageMogr2/auto-orient/strip">
 
 
 
@@ -117,13 +134,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/01/10/高仿音悦台播放页面交互效果/"/>
 
 
 
 
 
-  <title> 欧同学 </title>
+  <title> 高仿音悦台播放页面交互效果 | 欧同学 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="">
@@ -144,9 +161,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -225,9 +240,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -260,10 +275,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/01/10/高仿音悦台播放页面交互效果/" itemprop="url">
-                  高仿音悦台播放页面交互效果
-                </a>
+                高仿音悦台播放页面交互效果
               
             
           </h1>
@@ -312,9 +324,7 @@
       
 
       
-        
-          
-            <blockquote>
+        <blockquote>
 <p>新版的音悦台 APP 播放页面交互非常有意思，可以把播放器往下拖动，这个页面透明渐变，然后到底部可以左右拖动关闭播放器，然后点击视频列表有个页面弹出来的效果，十分炫酷，于是我自己动手实现了这个交互炫酷的播放器页面。</p>
 </blockquote>
 <h2 id="1-废话不多说，直接演示实现效果"><a href="#1-废话不多说，直接演示实现效果" class="headerlink" title="1.废话不多说，直接演示实现效果"></a>1.废话不多说，直接演示实现效果</h2><p>1.1.点击某个视频，然后手指上下拖动，播放器做尺寸比例的渐变，视频相关信息做透明度渐变<br><img src="http://upload-images.jianshu.io/upload_images/1982467-efa6dcde5a37300b.gif?imageMogr2/auto-orient/strip" alt="这里写图片描述"></p>
@@ -334,343 +344,62 @@
 <h2 id="4-总结"><a href="#4-总结" class="headerlink" title="4.总结"></a>4.总结</h2><p>说难也不难，就是各种抠细节需要脑洞，各位不妨看到好玩的交互自己打开脑洞一下，接下来可能要实现下 UC 浏览器播放器的效果，感觉也是非常有意思。</p>
 <p>#扔个Demo地址吧：<a href="https://github.com/oubowu/YinyuetaiPlayer" target="_blank" rel="external">Github:YinyuetaiPlayer</a>，觉得还不错的话给个Star哦！</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/11/22/一种无痕过渡下拉刷新控件的实现思路/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Bowu Ou">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="欧同学">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="欧同学" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/11/22/一种无痕过渡下拉刷新控件的实现思路/" itemprop="url">
-                  一种无痕过渡下拉刷新控件的实现思路
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-22T03:34:53+08:00">
-                2016-11-22
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/自定义控件/" rel="tag"># 自定义控件</a>
           
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <blockquote>
-<p>相信大家已经对下拉刷新熟悉得不能再熟悉了，市面上的下拉刷新琳琅满目，然而有很多在我看来略有缺陷，接下来我将说明一下存在的缺陷问题，然后提供一种思路来解决这一缺陷，废话不多说！往下看嘞！</p>
-</blockquote>
-<hr>
-<h2 id="1-市面一些下拉刷新控件普遍缺陷演示"><a href="#1-市面一些下拉刷新控件普遍缺陷演示" class="headerlink" title="1.市面一些下拉刷新控件普遍缺陷演示"></a>1.市面一些下拉刷新控件普遍缺陷演示</h2><p>以直播吧APP为例：</p>
-<p>第1种情况：<br>滑动控件在初始的0位置时，手势往下滑动然后再往上滑动，可以看到滑动到初始位置时滑动控件不能滑动。</p>
-<blockquote>
-<p>原因:<br>下拉刷新控件响应了触摸事件，后续的一系列事件都由它来处理，当滑动控件到顶端的时候，滑动事件都被下拉刷新控件消费掉了，传递不到它的子控件即滑动控件，因此滑动控件不能滑动。</p>
-</blockquote>
-<p><img src="http://ww4.sinaimg.cn/large/904ec4b1jw1fa076tlsg8g20d80n47wh.gif" alt="这里写图片描述"></p>
-<p>第2种情况：<br>滑动控件滑动到某个非0位置时，这时下拉回0位置时，可以看到下拉刷新头部没有被拉出来。</p>
-<blockquote>
-<p>原因:<br>滑动控件响应了触摸事件，后续的一系列事件都由它来处理，当滑动控件到顶端的时候，滑动事件都被滑动控件消费掉了，父控件即下拉刷新控件消费不了滑动事件，因此下拉刷新头部没有被拉出来。</p>
-</blockquote>
-<p><img src="http://ww3.sinaimg.cn/large/904ec4b1jw1fa076gnmg8g20di0n0tga.gif" alt="这里写图片描述"></p>
-<blockquote>
-<p>可能大部分人觉得无关痛痒，把手指抬起再下拉就可以了，but对于强迫症的我而言，能提供一个无痕过渡才是最符合操作逻辑的，因此接下来我来讲解下实现的思路。</p>
-</blockquote>
-<hr>
-<h2 id="2-实现的思路讲解"><a href="#2-实现的思路讲解" class="headerlink" title="2.实现的思路讲解"></a>2.实现的思路讲解</h2><p> 2.1.事件分发机制简介(来源于Android开发艺术探索)</p>
-<p> dispatchTouchEvent、onInterceptTouchEvent和onTouchEvent方法的关系伪代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">public boolean dispatchTouchEvent(MotionEvent ev) &#123; </div><div class="line">    boolean consume = false;</div><div class="line">    if(onInterceptTouchEvent(ev)) &#123; </div><div class="line">        consume = onTouchEvent(ev);</div><div class="line">    &#125; else &#123; </div><div class="line">        consume = child.dispatchTouchEvent(ev); </div><div class="line">    &#125;</div><div class="line">    return consume; </div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<blockquote>
-<p>1.由代码可知若当前View拦截事件，就交给自己的onTouchEvent去处理，否则就丢给子View继续走相同的流程。<br>2.事件传递顺序：Activity -&gt; Window -&gt; View，如果View都不处理，最终将由Activity的onTouchEvent<br>处理，是一种责任链模式的实现。<br>3.正常情况，一个事件序列只能被一个View拦截且消耗。<br>4.某个View一旦决定拦截，这一个事件序列只能由它处理，并且它的onInterceptTouchEvent不会再被调用<br>5.不消耗ACTION_DOWN，则事件序列都会由其父元素处理。</p>
-</blockquote>
-<p>2.2.一般下拉刷新的实现思路猜想<br>首先，下拉刷新控件作为一个容器，需要重写onInterceptTouchEvent和onTouchEvent这两个方法，<br>然后在onInterceptTouchEvent中判断ACTION_DOWN事件，根据子控件的滑动距离做出判断，若还没滑动过，则onInterceptTouchEvent返回true表示其拦截事件，然后在onTouchEvent中进行下拉刷新的头部显示隐藏的逻辑处理；<br>若子控件滑动过了，不拦截事件，onInterceptTouchEvent返回false，后续其下拉刷新的头部显示隐藏的逻辑处理就无法被调用了。</p>
-<p>2.3.无痕过渡下拉刷新控件的实现思路<br>从2.2中可以看出，要想无痕过渡，下拉刷新控件不能拦截事件，这时候你可能会问，既然把事件给了子控件，后续拉刷新头部逻辑怎么实现呢？<br>这时候就要用到一般都忽略的事件分发方法dispatchTouchEvent了，此方法在ViewGroup默认返回true表示分发事件，即使子控件拦截了事件，父布局的dispatchTouchEvent仍然会被调用，因为事件是传递下来的，这个方法必定被调用。<br>所以我们可以在dispatchTouchEvent时对子控件的滑动距离做出判断，在这里把下拉刷新的头部的逻辑处理掉，同时在函数调用<code>return super.dispatchTouchEvent(event)</code> 前把event的action设置为ACTION_CANCEL，这样子子控件就不会响应滑动的操作。</p>
-<hr>
-<h2 id="3-代码实现"><a href="#3-代码实现" class="headerlink" title="3.代码实现"></a>3.代码实现</h2><p>3.1.确定需求</p>
-<ul>
-<li>需要适配任意控件，例如RecyclerView、ListView、ViewPager、WebView以及普通的不能滑动的View</li>
-<li>不能影响子控件原来的事件逻辑</li>
-<li>暴露方法提供手动调用刷新功能</li>
-<li>可以设置禁止下拉刷新功能</li>
-</ul>
-<p>3.2.代码讲解</p>
-<blockquote>
-<p>需要的变量</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div></pre></td><td class="code"><pre><div class="line">public class RefreshLayout extends LinearLayout &#123;</div><div class="line">    // 隐藏的状态</div><div class="line">    private static final int HIDE = 0;</div><div class="line">    // 下拉刷新的状态</div><div class="line">    private static final int PULL_TO_REFRESH = 1;</div><div class="line">    // 松开刷新的状态</div><div class="line">    private static final int RELEASE_TO_REFRESH = 2;</div><div class="line">    // 正在刷新的状态</div><div class="line">    private static final int REFRESHING = 3;</div><div class="line">    // 正在隐藏的状态</div><div class="line">    private static final int HIDING = 4;</div><div class="line">    // 当前状态</div><div class="line">    private int mCurrentState = HIDE;</div><div class="line"></div><div class="line">    // 头部动画的默认时间（单位：毫秒）</div><div class="line">    public static final int DEFAULT_DURATION = 200;</div><div class="line"></div><div class="line">    // 头部高度</div><div class="line">    private int mHeaderHeight;</div><div class="line">    // 内容控件的滑动距离</div><div class="line">    private int mContentViewOffset;</div><div class="line">    // 最小滑动响应距离</div><div class="line">    private int mScaledTouchSlop;</div><div class="line">    // 记录上次的Y坐标</div><div class="line">    private float mLastMotionY;</div><div class="line">    // 记录一开始的Y坐标</div><div class="line">    private float mInitDownY;</div><div class="line">    // 响应的手指</div><div class="line">    private int mActivePointerId;</div><div class="line"></div><div class="line">    // 是否在处理头部</div><div class="line">    private boolean mIsHeaderHandling;</div><div class="line">    // 是否可以下拉刷新</div><div class="line">    private boolean mIsRefreshable = true;</div><div class="line"></div><div class="line">    // 内容控件是否可以滑动，不能滑动的控件会做触摸事件的优化</div><div class="line">    private boolean mContentViewScrollable = true;</div><div class="line">    // 头部，为了方便演示选取了TextView</div><div class="line">    private TextView mHeader;</div><div class="line"></div><div class="line">    // 容器要承载的内容控件，在XML里面要放置好</div><div class="line">    private View mContentView;</div><div class="line"></div><div class="line">    // 值动画，由于头部显示隐藏</div><div class="line">    private ValueAnimator mHeaderAnimator;</div><div class="line"></div><div class="line">    // 刷新的监听器</div><div class="line">    private OnRefreshListener mOnRefreshListener;</div></pre></td></tr></table></figure>
-<blockquote>
-<p>初始化时创建头部执行显示隐藏的值动画，添加头部到布局中，并且通过设置paddingTop隐藏头部</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div></pre></td><td class="code"><pre><div class="line">public RefreshLayout(Context context, AttributeSet attrs, int defStyleAttr) &#123;</div><div class="line">    super(context, attrs, defStyleAttr);</div><div class="line">    init();</div><div class="line">    addHeader(context);</div><div class="line">&#125;</div><div class="line"></div><div class="line">private void init() &#123;</div><div class="line"></div><div class="line">    mScaledTouchSlop = ViewConfiguration.get(getContext()).getScaledTouchSlop();</div><div class="line"></div><div class="line">    mHeaderAnimator = ValueAnimator.ofInt(0).setDuration(DEFAULT_DURATION);</div><div class="line">    mHeaderAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() &#123;</div><div class="line">        @Override</div><div class="line">        public void onAnimationUpdate(ValueAnimator valueAnimator) &#123;</div><div class="line">            if (getContext() == null) &#123;</div><div class="line">                // 若是退出Activity了，动画结束不必执行头部动作</div><div class="line">                return;</div><div class="line">            &#125;</div><div class="line">            // 通过设置paddingTop实现显示或者隐藏头部</div><div class="line">            int offset = (Integer) valueAnimator.getAnimatedValue();</div><div class="line">            mHeader.setPadding(0, offset, 0, 0);</div><div class="line">        &#125;</div><div class="line">    &#125;);</div><div class="line">    mHeaderAnimator.addListener(new AnimatorListenerAdapter() &#123;</div><div class="line">        @Override</div><div class="line">        public void onAnimationEnd(Animator animation) &#123;</div><div class="line">            if (getContext() == null) &#123;</div><div class="line">                // 若是退出Activity了，动画结束不必执行头部动作</div><div class="line">                return;</div><div class="line">            &#125;</div><div class="line">            if (mCurrentState == RELEASE_TO_REFRESH) &#123;</div><div class="line">                // 释放刷新状态执行的动画结束，意味接下来就是刷新了，改状态并且调用刷新的监听</div><div class="line">                mHeader.setText(&quot;正在刷新...&quot;);</div><div class="line">                mCurrentState = REFRESHING;</div><div class="line">                if (mOnRefreshListener != null) &#123;</div><div class="line">                    mOnRefreshListener.onRefresh();</div><div class="line">                &#125;</div><div class="line">            &#125; else if (mCurrentState == HIDING) &#123;</div><div class="line">                // 下拉状态执行的动画结束，隐藏头部，改状态</div><div class="line">                mHeader.setText(&quot;我是头部&quot;);</div><div class="line">                mCurrentState = HIDE;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;);</div><div class="line">&#125;</div><div class="line"></div><div class="line">// 头部的创建</div><div class="line">private void addHeader(Context context) &#123;</div><div class="line"></div><div class="line">    // 强制垂直方法</div><div class="line">    setOrientation(LinearLayout.VERTICAL);</div><div class="line"></div><div class="line">    mHeader = new TextView(context);</div><div class="line">    mHeader.setBackgroundColor(Color.GRAY);</div><div class="line">    mHeader.setTextColor(Color.WHITE);</div><div class="line">    mHeader.setText(&quot;我是头部&quot;);</div><div class="line">    mHeader.setTextSize(TypedValue.COMPLEX_UNIT_SP, 25);</div><div class="line">    mHeader.setGravity(Gravity.CENTER);</div><div class="line">    addView(mHeader, LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);</div><div class="line"></div><div class="line">    mHeader.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() &#123;</div><div class="line">        @Override</div><div class="line">        public void onGlobalLayout() &#123;</div><div class="line">            // 算出头部高度</div><div class="line">            mHeaderHeight = mHeader.getMeasuredHeight();</div><div class="line">            // 移除监听</div><div class="line">            if (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.JELLY_BEAN) &#123;</div><div class="line">                mHeader.getViewTreeObserver().removeOnGlobalLayoutListener(this);</div><div class="line">            &#125; else &#123;</div><div class="line">                mHeader.getViewTreeObserver().removeGlobalOnLayoutListener(this);</div><div class="line">            &#125;</div><div class="line">            // 设置paddingTop为-mHeaderHeight,刚好把头部隐藏掉了</div><div class="line">            mHeader.setPadding(0, -mHeaderHeight, 0, 0);</div><div class="line">        &#125;</div><div class="line">    &#125;);</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<blockquote>
-<p>在填充完布局后取出内容控件</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">@Override</div><div class="line">protected void onFinishInflate() &#123;</div><div class="line">    super.onFinishInflate();</div><div class="line">    // 设置长点击或者短点击都能消耗事件，要不这样做，若孩子都不消耗，最终点击事件会被它的上级消耗掉，后面一系列的事件都只给它的上级处理了</div><div class="line">    setLongClickable(true);</div><div class="line"></div><div class="line">    // 获取内容控件</div><div class="line">    mContentView = getChildAt(1);</div><div class="line">    if (mContentView == null) &#123;</div><div class="line">        // 为空抛异常，强制要求在XML设置内容控件</div><div class="line">        throw new IllegalArgumentException(&quot;You must add a content view!&quot;);</div><div class="line">    &#125;</div><div class="line">    if (!(mContentView instanceof ScrollingView </div><div class="line">         || mContentView instanceof WebView </div><div class="line">          || mContentView instanceof ScrollView </div><div class="line">           || mContentView instanceof AbsListView)) &#123;</div><div class="line">        // 不是具有滚动的控件，这里设置标志位</div><div class="line">        mContentViewScrollable = false;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<blockquote>
-<p>重头戏来了，分发对于下拉刷新的特殊处理：<br>1.mContentViewOffset用于判别内容页的滑动距离，在无偏移值时才去处理下拉刷新的操作；<br>2.在mContentViewOffset！=0即内容页滑动的第一个瞬间，强制把MOVE事件改为DOWN，是因为之前MOVE都被拦截掉了，若不给个DOWN让内容页重新定下滑动起点，会有一瞬间滑动一大段距离的坑爹效果。</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div></pre></td><td class="code"><pre><div class="line">@Override</div><div class="line">public boolean dispatchTouchEvent(final MotionEvent event) &#123;</div><div class="line"></div><div class="line">    if (!mIsRefreshable) &#123;</div><div class="line">        // 禁止下拉刷新，直接把事件分发</div><div class="line">        return super.dispatchTouchEvent(event);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    if ((mCurrentState == REFRESHING </div><div class="line">         || mCurrentState == RELEASE_TO_REFRESH </div><div class="line">          || mCurrentState == HIDING) </div><div class="line">           &amp;&amp; mHeaderAnimator.isRunning()) &#123;</div><div class="line">        // 正在刷新，正在释放，正在隐藏头部都不处理事件，并且不分发下去</div><div class="line">        return true;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // 支持多指触控</div><div class="line">    int actionMasked = MotionEventCompat.getActionMasked(event);</div><div class="line"></div><div class="line">    switch (actionMasked) &#123;</div><div class="line"></div><div class="line">        case MotionEvent.ACTION_DOWN: &#123;</div><div class="line">            // 记录响应的手指</div><div class="line">            mActivePointerId = event.getPointerId(0);</div><div class="line">            // 记录初始Y坐标</div><div class="line">            mInitDownY = mLastMotionY = event.getY(0);</div><div class="line">        &#125;</div><div class="line">        break;</div><div class="line"></div><div class="line">        case MotionEvent.ACTION_POINTER_DOWN: &#123;</div><div class="line">            // 另外一根手指按下，切换到这个手指响应</div><div class="line">            int pointerDownIndex = MotionEventCompat.getActionIndex(event);</div><div class="line">            if (pointerDownIndex &lt; 0) &#123;</div><div class="line">                Log.e(&quot;RefreshLayout&quot;, &quot;296行-dispatchTouchEvent(): &quot; + &quot;Got ACTION_POINTER_DOWN event but have an invalid action index.&quot;);</div><div class="line">                return dispatchTouchEvent(event);</div><div class="line">            &#125;</div><div class="line">            mActivePointerId = event.getPointerId(pointerDownIndex);</div><div class="line">            mLastMotionY = event.getY(pointerDownIndex);</div><div class="line">        &#125;</div><div class="line">        break;</div><div class="line"></div><div class="line">        case MotionEvent.ACTION_POINTER_UP: &#123;</div><div class="line">            // 另外一根手指抬起，切换回其他手指响应</div><div class="line">            final int pointerUpIndex = MotionEventCompat.getActionIndex(event);</div><div class="line">            final int pointerId = event.getPointerId(pointerUpIndex);</div><div class="line">            if (pointerId == mActivePointerId) &#123;</div><div class="line">                // 抬起手指就是之前控制滑动手指，切换其他手指响应</div><div class="line">                final int newPointerIndex = pointerUpIndex == 0 ? 1 : 0;</div><div class="line">                mActivePointerId = event.getPointerId(newPointerIndex);</div><div class="line">            &#125;</div><div class="line">            mLastMotionY = event.getY(event.findPointerIndex(mActivePointerId));</div><div class="line">        &#125;</div><div class="line">        break;</div><div class="line"></div><div class="line">        case MotionEvent.ACTION_MOVE: &#123;</div><div class="line">            // 移动事件</div><div class="line">            if (mActivePointerId == INVALID_POINTER) &#123;</div><div class="line">                Log.e(&quot;RefreshLayout&quot;, &quot;235行-dispatchTouchEvent(): &quot; + &quot;Got ACTION_MOVE event but don&apos;t have an active pointer id.&quot;);</div><div class="line">                return dispatchTouchEvent(event);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            float y = event.getY(event.findPointerIndex(mActivePointerId));</div><div class="line">            // 移动的偏移量</div><div class="line">            float yDiff = y - mLastMotionY;</div><div class="line">            mLastMotionY = y;</div><div class="line"></div><div class="line">            if (mContentViewOffset == 0 &amp;&amp; (yDiff &gt; 0 || (yDiff &lt; 0 &amp;&amp; isHeaderShowing()))) &#123;</div><div class="line">                // 内容控件还没滚动时，下拉或者在头部还在显示的时候上滑时，交由自己处理滑动事件</div><div class="line"></div><div class="line">                // 滑动的总距离</div><div class="line">                float totalDistanceY = mLastMotionY - mInitDownY;</div><div class="line">                if (totalDistanceY &gt; 0 &amp;&amp; totalDistanceY &lt;= mScaledTouchSlop &amp;&amp; yDiff &gt; 0) &#123;</div><div class="line">                    // 下拉时，优化滑动逻辑，不要稍微一点位移就响应</div><div class="line">                    return super.dispatchTouchEvent(event);</div><div class="line">                &#125;</div><div class="line"></div><div class="line">                // 正在处理事件</div><div class="line">                mIsHeaderHandling = true;</div><div class="line"></div><div class="line">                if (mCurrentState == REFRESHING) &#123;</div><div class="line">                    // 正在刷新，不让contentView响应滑动</div><div class="line">                    event.setAction(MotionEvent.ACTION_CANCEL);</div><div class="line">                &#125;</div><div class="line"></div><div class="line">                // 处理下拉头部</div><div class="line">                scrollHeader(yDiff);</div><div class="line"></div><div class="line">                break;</div><div class="line"></div><div class="line">            &#125; else if (mIsHeaderHandling) &#123;</div><div class="line">                // 在头部隐藏的那一瞬间的事件特殊处理</div><div class="line">                if (mContentViewScrollable) &#123;</div><div class="line">                    // 1.可滑动的View，由于之前处理头部，之前的MOVE事件没有传递到内容页，这里需要要ACTION_DOWN来重新告知滑动的起点，不然会瞬间滑动一段距离</div><div class="line">                    // 2.对于不滑动的View设置了点击事件，若这里给它一个ACTION_DOWN事件，在手指抬起时ACTION_UP事件会触发点击，因此这里做了处理</div><div class="line">                    event.setAction(MotionEvent.ACTION_DOWN);</div><div class="line">                &#125;</div><div class="line">                mIsHeaderHandling = false;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        break;</div><div class="line"></div><div class="line">        case MotionEvent.ACTION_CANCEL:</div><div class="line">        case MotionEvent.ACTION_UP: &#123;</div><div class="line">            // 处理手指抬起或取消事件</div><div class="line">            mActivePointerId = INVALID_POINTER;</div><div class="line">            if (isHeaderShowing()) &#123;</div><div class="line">                // 头部显示情况下</div><div class="line">                if (actionMasked == MotionEvent.ACTION_CANCEL) &#123;</div><div class="line">                    // 取消的话强制不能刷新，状态改为下拉刷新，接下来autoScrollHeader就会隐藏头部</div><div class="line">                    mCurrentState = PULL_TO_REFRESH;</div><div class="line">                &#125;</div><div class="line">                autoScrollHeader();</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        break;</div><div class="line"></div><div class="line">        default:</div><div class="line">            break;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    if (mCurrentState != REFRESHING </div><div class="line">         &amp;&amp; isHeaderShowing() </div><div class="line">           &amp;&amp; actionMasked != MotionEvent.ACTION_UP </div><div class="line">             &amp;&amp; actionMasked != MotionEvent.ACTION_POINTER_UP) &#123;</div><div class="line">        // 不是在刷新的时候，并且头部在显示， 某些情况下不让contentView响应事件</div><div class="line">        event.setAction(MotionEvent.ACTION_CANCEL);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    return super.dispatchTouchEvent(event);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<blockquote>
-<p>头部的处理逻辑：拿到下拉偏移量，然后动态去设置头部的paddingTop值，即可实现显示隐藏；手指抬起时根据状态决定是显示刷新还是直接隐藏头部</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div></pre></td><td class="code"><pre><div class="line">/**</div><div class="line">  * 拉动头部</div><div class="line">  *</div><div class="line">  * @param diff 拉动距离</div><div class="line">  */</div><div class="line"> private void scrollHeader(float diff) &#123;</div><div class="line">     // 除以3相当于阻尼值</div><div class="line">     diff /= 3;</div><div class="line">     // 计算出移动后的头部位置</div><div class="line">     int top = (int) (diff + mHeader.getPaddingTop());</div><div class="line">     // 控制头部位置最小不超过-mHeaderHeight，最大不超过mHeaderHeight * 3</div><div class="line">     mHeader.setPadding(0, Math.min(Math.max(top, -mHeaderHeight), mHeaderHeight * 3), 0, 0);</div><div class="line">     if (mCurrentState == REFRESHING) &#123;</div><div class="line">         // 之前还在刷新状态，继续维持刷新状态</div><div class="line">         mHeader.setText(&quot;正在刷新...&quot;);</div><div class="line">         return;</div><div class="line">     &#125;</div><div class="line">     if (mHeader.getPaddingTop() &gt; mHeaderHeight / 2) &#123;</div><div class="line">         // 大于mHeaderHeight / 2时可以刷新了</div><div class="line">         mHeader.setText(&quot;可以释放刷新...&quot;);</div><div class="line">         mCurrentState = RELEASE_TO_REFRESH;</div><div class="line">     &#125; else &#123;</div><div class="line">         // 下拉状态</div><div class="line">         mHeader.setText(&quot;正在下拉...&quot;);</div><div class="line">         mCurrentState = PULL_TO_REFRESH;</div><div class="line">     &#125;</div><div class="line"> &#125;</div><div class="line"></div><div class="line"> /**</div><div class="line">  * 执行头部显示或隐藏滑动</div><div class="line">  */</div><div class="line"> private void autoScrollHeader() &#123;</div><div class="line">     // 处理抬起事件</div><div class="line">     if (mCurrentState == RELEASE_TO_REFRESH) &#123;</div><div class="line">         // 释放刷新状态，手指抬起，通过动画实现头部回到（0，0）位置</div><div class="line">         mHeaderAnimator.setIntValues(mHeader.getPaddingTop(), 0);</div><div class="line">         mHeaderAnimator.setDuration(DEFAULT_DURATION);</div><div class="line">         mHeaderAnimator.start();</div><div class="line">         mHeader.setText(&quot;正在释放...&quot;);</div><div class="line">     &#125; else if (mCurrentState == PULL_TO_REFRESH || mCurrentState == REFRESHING) &#123;</div><div class="line">         // 下拉状态或者正在刷新状态，通过动画隐藏头部</div><div class="line">         mHeaderAnimator.setIntValues(mHeader.getPaddingTop(), -mHeaderHeight);</div><div class="line">         if (mHeader.getPaddingTop() &lt;= 0) &#123;</div><div class="line">             mHeaderAnimator.setDuration((long) (DEFAULT_DURATION * 1.0 / </div><div class="line">              mHeaderHeight * (mHeader.getPaddingTop() + mHeaderHeight)));</div><div class="line">         &#125; else &#123;</div><div class="line">             mHeaderAnimator.setDuration(DEFAULT_DURATION);</div><div class="line">         &#125;</div><div class="line">         mHeaderAnimator.start();</div><div class="line">         if (mCurrentState == PULL_TO_REFRESH) &#123;</div><div class="line">             // 下拉状态的话，把状态改为正在隐藏头部状态</div><div class="line">             mCurrentState = HIDING;</div><div class="line">             mHeader.setText(&quot;收回头部...&quot;);</div><div class="line">         &#125;</div><div class="line">     &#125;</div><div class="line"> &#125;</div></pre></td></tr></table></figure>
-<blockquote>
-<p>你可能会问了，这个mContentViewOffset怎么知道呢？接下来就是处理的方法，我会针对不同的滑动控件，去设置它们的滑动距离的监听，方法各种各样，通过handleTargetOffset去判别View的类型采取不同的策略；然后你可能会觉得要是我那个控件我也要实现监听咋办？这个简单，继承我已经实现的监听器，再补充你想要的功能即可，这个时候就不能再调handleTargetOffset这个方法了呗。</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div></pre></td><td class="code"><pre><div class="line">// 设置内容页滑动距离</div><div class="line">public void setContentViewOffset(int offset) &#123;</div><div class="line">    mContentViewOffset = offset;</div><div class="line">&#125;</div><div class="line"></div><div class="line">/**</div><div class="line"> * 根据不同类型的View采取不同类型策略去计算滑动距离</div><div class="line"> *</div><div class="line"> * @param view 内容View</div><div class="line"> */</div><div class="line">public void handleTargetOffset(View view) &#123;</div><div class="line">    if (view instanceof RecyclerView) &#123;</div><div class="line">    </div><div class="line">        ((RecyclerView) view).addOnScrollListener(new RecyclerViewOnScrollListener());</div><div class="line">        </div><div class="line">    &#125; else if (view instanceof NestedScrollView) &#123;</div><div class="line">    </div><div class="line">        ((NestedScrollView) view).setOnScrollChangeListener(new NestedScrollViewOnScrollChangeListener());</div><div class="line">        </div><div class="line">    &#125; else if (view instanceof WebView) &#123;</div><div class="line">    </div><div class="line">        view.setOnTouchListener(new WebViewOnTouchListener());</div><div class="line">        </div><div class="line">    &#125; else if (view instanceof ScrollView) &#123;</div><div class="line">    </div><div class="line">        view.setOnTouchListener(new ScrollViewOnTouchListener());</div><div class="line">        </div><div class="line">    &#125; else if (view instanceof ListView) &#123;</div><div class="line">    </div><div class="line">        ((ListView) view).setOnScrollListener(new ListViewOnScrollListener());</div><div class="line">        </div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">/**</div><div class="line"> * 适用于RecyclerView的滑动距离监听</div><div class="line"> */</div><div class="line">public class RecyclerViewOnScrollListener extends RecyclerView.OnScrollListener &#123;</div><div class="line"></div><div class="line">    int offset = 0;</div><div class="line"></div><div class="line">    @Override</div><div class="line">    public void onScrolled(RecyclerView recyclerView, int dx, int dy) &#123;</div><div class="line">        super.onScrolled(recyclerView, dx, dy);</div><div class="line">        offset += dy;</div><div class="line">        setContentViewOffset(offset);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div><div class="line"></div><div class="line">/**</div><div class="line"> * 适用于NestedScrollView的滑动距离监听</div><div class="line"> */</div><div class="line">public class NestedScrollViewOnScrollChangeListener implements NestedScrollView.OnScrollChangeListener &#123;</div><div class="line"></div><div class="line">    @Override</div><div class="line">    public void onScrollChange(NestedScrollView v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) &#123;</div><div class="line">        setContentViewOffset(scrollY);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">/**</div><div class="line"> * 适用于WebView的滑动距离监听</div><div class="line"> */</div><div class="line">public class WebViewOnTouchListener implements View.OnTouchListener &#123;</div><div class="line"></div><div class="line">    @Override</div><div class="line">    public boolean onTouch(View view, MotionEvent motionEvent) &#123;</div><div class="line">        setContentViewOffset(view.getScrollY());</div><div class="line">        return false;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div><div class="line"></div><div class="line">/**</div><div class="line"> * 适用于ScrollView的滑动距离监听</div><div class="line"> */</div><div class="line">public class ScrollViewOnTouchListener extends WebViewOnTouchListener &#123;</div><div class="line"></div><div class="line">&#125;</div><div class="line"></div><div class="line">/**</div><div class="line"> * 适用于ListView的滑动距离监听</div><div class="line"> */</div><div class="line">public class ListViewOnScrollListener implements AbsListView.OnScrollListener &#123;</div><div class="line"></div><div class="line">    @Override</div><div class="line">    public void onScrollStateChanged(AbsListView absListView, int i) &#123;</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    @Override</div><div class="line">    public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) &#123;</div><div class="line">        if (firstVisibleItem == 0) &#123;</div><div class="line">            View c = view.getChildAt(0);</div><div class="line">            if (c == null) &#123;</div><div class="line">                return;</div><div class="line">            &#125;</div><div class="line">            int firstVisiblePosition = view.getFirstVisiblePosition();</div><div class="line">            int top = c.getTop();</div><div class="line">            int scrolledY = -top + firstVisiblePosition * c.getHeight();</div><div class="line">            setContentViewOffset(scrolledY);</div><div class="line">        &#125; else &#123;</div><div class="line">            setContentViewOffset(1);</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<blockquote>
-<p>最后参考谷歌大大的SwipeRefreshLayout提供setRefreshing来开启或关闭刷新动画，至于openHeader为啥要post(Runnable)呢？相信用过SwipeRefreshLayout在onCreate的时候直接调用setRefreshing(true)没有小圆圈出来的都知道这个坑！</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line">public void setRefreshing(boolean refreshing) &#123;</div><div class="line">    if (refreshing &amp;&amp; mCurrentState != REFRESHING) &#123;</div><div class="line">        // 强开刷新头部</div><div class="line">        openHeader();</div><div class="line">    &#125; else if (!refreshing) &#123;</div><div class="line">        closeHeader();</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">private void openHeader() &#123;</div><div class="line">    post(new Runnable() &#123;</div><div class="line">        @Override</div><div class="line">        public void run() &#123;</div><div class="line">            mCurrentState = RELEASE_TO_REFRESH;</div><div class="line">            mHeaderAnimator.setDuration((long) (DEFAULT_DURATION * 2.5));</div><div class="line">            mHeaderAnimator.setIntValues(mHeader.getPaddingTop(), 0);</div><div class="line">            mHeaderAnimator.start();</div><div class="line">        &#125;</div><div class="line">    &#125;);</div><div class="line">&#125;</div><div class="line"></div><div class="line">private void closeHeader() &#123;</div><div class="line">    mHeader.setText(&quot;刷新完毕，收回头部...&quot;);</div><div class="line">    mCurrentState = HIDING;</div><div class="line">    mHeaderAnimator.setIntValues(mHeader.getPaddingTop(), -mHeaderHeight);</div><div class="line">    // 0~-mHeaderHeight用时DEFAULT_DURATION</div><div class="line">    mHeaderAnimator.setDuration(DEFAULT_DURATION);</div><div class="line">    mHeaderAnimator.start();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>3.3.效果展示</p>
-<p><img src="http://ww4.sinaimg.cn/large/904ec4b1jw1fa0bhc0co2g20di0n3npf.gif" alt="这里写图片描述"></p>
-<p><img src="http://ww1.sinaimg.cn/large/904ec4b1jw1fa0bczoaoxg20di0n3wqt.gif" alt="这里写图片描述"></p>
-<p><img src="http://ww4.sinaimg.cn/large/904ec4b1jw1fa0bfdx829g20di0n34qs.gif" alt="这里写图片描述"></p>
-<blockquote>
-<p>除了以上三个还有在Demo中实现了ListView、ViewPager、ScrollView、NestedScrollView，具体看代码即可<br></p>
-</blockquote>
-<p>Demo地址：<a href="https://github.com/oubowu/RefreshLayoutDemo" target="_blank" rel="external">Github:RefreshLayoutDemo</a>，觉得还不错的话给个Star哦。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/11/08/hello-world/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Bowu Ou">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="欧同学">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="欧同学" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/11/22/一种无痕过渡下拉刷新控件的实现思路/" rel="next" title="一种无痕过渡下拉刷新控件的实现思路">
+                <i class="fa fa-chevron-left"></i> 一种无痕过渡下拉刷新控件的实现思路
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/11/08/hello-world/" itemprop="url">
-                  Untitled
-                </a>
-              
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-08T21:27:01+08:00">
-                2016-11-08
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <hr>
-<h2 id="个人博客搭成"><a href="#个人博客搭成" class="headerlink" title="个人博客搭成"></a>个人博客搭成</h2><p>使用Hexo搭建而成了，有点意思啊！以后在这写点啥分享啦！</p>
-<p><img src="http://ww4.sinaimg.cn/mw690/b2b1bff9jw1f9jdcstlw3j21hc0u043f.jpg" alt="图片"></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -678,6 +407,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -697,8 +430,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -744,6 +486,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-废话不多说，直接演示实现效果"><span class="nav-number">1.</span> <span class="nav-text">1.废话不多说，直接演示实现效果</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-实现的思路讲解"><span class="nav-number">2.</span> <span class="nav-text">2.实现的思路讲解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-代码解析"><span class="nav-number">3.</span> <span class="nav-text">3.代码解析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-总结"><span class="nav-number">4.</span> <span class="nav-text">4.总结</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
     </div>
@@ -842,6 +600,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
